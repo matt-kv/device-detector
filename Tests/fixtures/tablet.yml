@@ -1843,16 +1843,16 @@
     version: "4.4.2"
   client:
     type: browser
-    name: Android Browser
-    short_name: AN
-    version:
-    engine: WebKit
+    name: Chrome Mobile
+    short_name: CM
+    version: "30.0.0.0"
+    engine: Blink
   device:
     type: tablet
     brand: AL
     model: One Touch PIXI 7
   os_family: Android
-  browser_family: Android Browser
+  browser_family: Chrome
 - 
   user_agent: Mozilla/5.0 (Linux; Android 4.2.2; ARNOVA 101 G4 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36
   os:
