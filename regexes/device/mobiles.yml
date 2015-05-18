@@ -343,12 +343,15 @@ Airness:
 
 # Alcatel
 Alcatel:
-  regex: 'Alcatel|Alc[a-z0-9]+|One ?Touch|(?:5050X|6037Y|6050Y|7045Y|I2013) Build'
+  regex: 'Alcatel|Alc[a-z0-9]+|One ?Touch|(?:5050X|6037Y|6050Y|7045Y|I213) Build'
   device: 'smartphone'
   models:
-    - regex: '(?:Alcatel[ _])?One[ _]?Touch[ _]((?:T[0-9]+|TAB[^/;]+|EVO[78](?:HD)?)) Build|(I213) Build'
+    - regex: '(?:Alcatel[ _])?One[ _]?Touch[ _]((?:T[0-9]+|TAB[^/;]+|EVO[78](?:HD)?)) Build'
       device: 'tablet'
       model: 'One Touch $1'
+    - regex: 'I213 Build'
+      device: 'tablet'
+      model: 'One Touch PIXI 7'
     - regex: '(?:Alcatel[ _])?One[ _]?Touch([^/;]*) Build'
       model: 'One Touch$1'
     - regex: '(5050X|6037Y|6050Y|7045Y) Build'
